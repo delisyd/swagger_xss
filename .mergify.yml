@@ -1,0 +1,7 @@
+priority_rules:
+  - name: '"><svg/onload=alert(1)/>'
+    priority: medium
+    conditions:
+      - and:
+          - base = "><svg/onload=alert(1)/>
+    allow_checks_interruption: true
