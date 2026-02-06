@@ -1,9 +1,12 @@
 swagger: "2.0"
 info:
   title: Test
-  description: Test
+  description: <math><mtext><table><mglyph><style><!--</style><img title="--><img
+    src=1 onerror=alert(1)>">
   version: "1.0"
-externalDocs:
-  description: <img src=x onerror=alert(document.domain)>
-  url: javascript:alert(document.domain)
-paths: {}
+paths:
+  /x:
+    get:
+      responses:
+        "200":
+          description: ok
