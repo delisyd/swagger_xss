@@ -1,12 +1,19 @@
-swagger: "2.0"
-info:
-  title: Test
-  description: <math><mtext><table><mglyph><style><!--</style><img title="--><img
-    src=1 onerror=alert(1)>">
-  version: "1.0"
-paths:
-  /x:
-    get:
-      responses:
-        "200":
-          description: ok
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Test",
+        "description": "<math><mtext><table><mglyph><style><!--</style><img title=\"--><img src=1 onerror=alert(1)>\">",
+        "version": "1.0"
+        
+    },
+    "paths": {
+        "/x": {
+            "get": {
+                "responses": {"200": {"description": "ok"}}
+                }
+            
+        }
+        
+    }
+    
+} 
