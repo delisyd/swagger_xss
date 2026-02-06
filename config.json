@@ -1,9 +1,10 @@
 {
-    "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/main/xss-fetch.yaml",
+    "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/e7f3b1a55705316a1be014267ac47c2cb6a8c924/xss-fetch.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/main/xss-fetch.yaml",
-            "name": "XSS payload"
+            "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/e7f3b1a55705316a1be014267ac47c2cb6a8c924/xss-fetch.yaml",
+            "name": "Foo"
         }
     ]
 }
+
