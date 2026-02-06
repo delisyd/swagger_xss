@@ -1,13 +1,9 @@
 swagger: "2.0"
 info:
-  title: Test API
-  description: <noscript><style></noscript><img src=x onerror=alert(document.domain)>
+  title: Test
+  description: Test
   version: "1.0"
-paths:
-  /test:
-    get:
-      summary: Test
-      description: <noscript><style></noscript><img src=x onerror=alert(document.domain)>
-      responses:
-        "200":
-          description: OK
+externalDocs:
+  description: <img src=x onerror=alert(document.domain)>
+  url: javascript:alert(document.domain)
+paths: {}
