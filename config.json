@@ -1,8 +1,8 @@
 {
-    "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/e7f3b1a55705316a1be014267ac47c2cb6a8c924/xss-fetch.yaml",
+    "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/d343604954962dba0f092d51ccca3a62d726b1ab/xss-fetch.yaml",
     "urls": [
         {
-            "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/e7f3b1a55705316a1be014267ac47c2cb6a8c924/xss-fetch.yaml",
+            "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/d343604954962dba0f092d51ccca3a62d726b1ab/xss-fetch.yaml",
             "name": "Foo"
         }
     ]
