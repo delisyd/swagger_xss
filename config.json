@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "API Documentation",
-    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><a title=\"</textarea><img src onerror=alert(document.domain)>\">",
+    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><title><a title=\"</title><img src onerror=alert(document.domain)>\">",
     "version": "1.0"
   },
   "host": "example.com",
@@ -12,7 +12,7 @@
     "/test": {
       "get": {
         "summary": "Test endpoint",
-        "description": "<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title=\"</textarea><img src=x onerror=alert(document.domain)>\">",
+        "description": "Normal endpoint",
         "produces": ["application/json"],
         "responses": {
           "200": {
