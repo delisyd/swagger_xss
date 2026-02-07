@@ -2,21 +2,39 @@
   "swagger": "2.0",
   "info": {
     "title": "API Documentation",
-    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><title><a title=\"</title><img src onerror=alert(document.domain)>\">",
+    "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><a title=\"</textarea><img src onerror=alert('info.description')>\">",
     "version": "1.0"
   },
   "host": "example.com",
   "basePath": "/",
   "schemes": ["https"],
+  "tags": [
+    {
+      "name": "users",
+      "description": "<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title=\"</textarea><img src=x onerror=alert('tag.description')>\">"
+    }
+  ],
   "paths": {
-    "/test": {
+    "/users": {
       "get": {
-        "summary": "Test endpoint",
-        "description": "Normal endpoint",
+        "tags": ["users"],
+        "summary": "List users",
+        "description": "<form><math><mtext></form><form><mglyph><svg><mtext><title><a title=\"</title><img src onerror=alert('operation.description')>\">",
         "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "type": "string",
+            "description": "<form><math><mtext></form><form><mglyph><svg><mtext><textarea><a title=\"</textarea><img src onerror=alert('param.description')>\">"
+          }
+        ],
         "responses": {
           "200": {
-            "description": "Success"
+            "description": "<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title=\"</textarea><img src=x onerror=alert('response.description')>\">"
+          },
+          "404": {
+            "description": "<form><math><mtext></form><form><mglyph><svg><mtext><title><a title=\"</title><img src onerror=alert('response404.description')>\">"
           }
         }
       }
